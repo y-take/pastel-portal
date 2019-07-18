@@ -1,0 +1,2 @@
+# pastel-portal
+kintoneカスタマイズポータル
