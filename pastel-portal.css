@@ -1,0 +1,654 @@
+/* portal-design-templates */
+@charset "utf-8";
+.designportal .basic-heading1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .designportal .basic-heading1 {
+    margin: 0;
+    padding: 0 15px 15px 15px;
+  }
+}
+
+.designportal .basic-heading1--white {
+  color: #FFFFFF;
+}
+
+.designportal .basic-heading2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 20px 0 10px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .designportal .basic-heading2 {
+    padding: 10px 0 10px 0;
+    margin: 0;
+  }
+}
+
+.designportal .basic-heading3 {
+  margin: 20px 0 0 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.designportal .basic-app-name {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .designportal .basic-app-name {
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 0;
+    margin-left: 10px;
+  }
+}
+
+.designportal .basic-space-name {
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .designportal .basic-space-name {
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 0;
+    margin-left: 10px;
+  }
+}
+
+.designportal-basic {
+  display: block;
+  position: relative;
+  background-color: #F2F2F2;
+}
+
+.designportal-basic h1, .designportal-basic h2, .designportal-basic h3, .designportal-basic ul, .designportal-basic ol, .designportal-basic p, .designportal-basic th, .designportal-basic td, .designportal-basic dl, .designportal-basic dt, .designportal-basic dd {
+  margin: 0;
+  padding: 0;
+}
+
+.designportal-basic ol {
+  list-style: decimal;
+}
+
+.designportal .basic-heading1 {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .designportal .basic-heading1 {
+    font-size: 2.4rem;
+    padding-bottom: 5px;
+  }
+}
+
+.designportal .basic-heading2 {
+  font-size: 1.6rem;
+}
+
+@media screen and (max-width: 768px) {
+  .designportal .basic-heading2 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .designportal .basic-heading3 {
+    font-size: 1.6rem;
+  }
+}
+
+.designportal .basic-text {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .designportal .basic-text {
+    font-size: 1.6rem;
+  }
+}
+
+.designportal .basic-list-item {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .designportal .basic-list-item {
+    font-size: 1.6rem;
+  }
+}
+
+.designportal .basic-container {
+  width: 1080px;
+  margin: 0 auto;
+  padding: 20px 0 20px;
+}
+
+.designportal .basic-container:last-child {
+  padding-bottom: 40px;
+}
+
+@media screen and (max-width: 1160px) {
+  .designportal .basic-container {
+    width: 96vw;
+    margin: 0 2vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .designportal .basic-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0 5px 0;
+  }
+}
+
+.designportal .basic-appSet, .designportal .basic-spaceSet, .designportal .basic-dataSet {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .designportal .basic-appSet, .designportal .basic-spaceSet, .designportal .basic-dataSet {
+    display: block;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+  }
+}
+
+.designportal .basic-dataSet {
+  justify-content: normal;
+}
+
+@media screen and (max-width: 768px) {
+  .designportal .basic-dataSet {
+    padding: 15px 15px;
+  }
+}
+
+.designportal .basic-data {
+  display: block;
+  width: 100%;
+  list-style-type: none;
+  margin: 0 0 20px 0;
+}
+
+.designportal .basic-data-notifications {
+  margin: 0 0 10px 0;
+  text-align: left;
+}
+
+.designportal .basic-app {
+  display: block;
+  width: 168px;
+  margin: 20px;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 1160px) {
+  .designportal .basic-app {
+    width: 16%;
+    margin: 2%;
+  }
+  .designportal .basic-app:first-child {
+    margin-left: 0;
+  }
+  .designportal .basic-app:last-child {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .designportal .basic-app {
+    width: auto;
+    margin: 0;
+    padding: 10px 15px;
+    border-bottom: solid 1px #dddddd;
+  }
+  .designportal .basic-app:last-child {
+    border-bottom: none;
+  }
+}
+
+.designportal .basic-app-link, .designportal .basic-space-link {
+  display: block;
+  color: #000000;
+  background: #fff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .designportal .basic-app-link, .designportal .basic-space-link {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.designportal .basic-app-link:hover, .designportal .basic-space-link:hover, .designportal .basic-app-link:focus, .designportal .basic-space-link:focus {
+  text-decoration: underline;
+}
+
+.designportal .basic-app-link:focus, .designportal .basic-space-link:focus {
+  outline: #3498db solid 1px;
+}
+
+.designportal .basic-app-icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .designportal .basic-app-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    margin: 0;
+  }
+}
+
+.designportal .basic-app-icon-img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  fill: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+  .designportal .basic-app-icon-img {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+  }
+}
+
+.designportal .basic-app-name {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .designportal .basic-app-name {
+    font-size: 1.6rem;
+  }
+}
+
+.designportal .basic-space {
+  display: block;
+  width: 220px;
+  margin: 20px;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 1160px) {
+  .designportal .basic-space {
+    width: 46%;
+    margin: 1.9%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .designportal .basic-space {
+    width: auto;
+    margin: 0;
+    padding: 10px 15px;
+    border-bottom: solid 1px #dddddd;
+  }
+  .designportal .basic-space:last-child {
+    border-bottom: none;
+  }
+}
+
+.designportal .basic-space-img-container {
+  height: 100px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1160px) {
+  .designportal .basic-space-img-container {
+    width: 100%;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .designportal .basic-space-img-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+  }
+}
+
+.designportal .basic-space-img {
+  display: block;
+  height: 100px;
+  border-radius: 10px;
+  width: 100%;
+  height: 100px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+  .designportal .basic-space-img {
+    display: block;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.designportal .basic-space-name {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .designportal .basic-space-name {
+    font-size: 1.6rem;
+  }
+}
+
+.designportal .basic-list {
+  margin: 18px 0 18px 30px;
+}
+
+.designportal .basic-app-icon--red {
+  background: linear-gradient(180deg, #fe5461 0%, #EF454A 100%);
+}
+
+.designportal .basic-app-icon--blue {
+  background: linear-gradient(180deg, #56CCF2 0%, #2F80ED 100%);
+}
+
+.designportal .basic-app-icon--skyblue {
+  background: linear-gradient(180deg, #a2dfe8 0%, #56CCF2 100%);
+}
+
+.designportal .basic-app-icon--pink {
+  background: linear-gradient(180deg, #FF6EA2 0%, #E71F00 100%);
+}
+
+.designportal .basic-app-icon--green {
+  background: linear-gradient(180deg, #6FCF97 0%, #219653 100%);
+}
+
+.designportal .basic-app-icon--purple {
+  background: linear-gradient(180deg, #D16EFF 0%, #5300BD 100%);
+}
+
+.designportal .basic-app-icon--orange {
+  background: linear-gradient(180deg, #F2C94C 0%, #EB5757 100%);
+}
+
+.designportal .basic-app-icon--yellow {
+  background: linear-gradient(180deg, #ffd580 0%, #F2C94C 100%);
+}
+
+.boxContainer{
+  font-size: 0;
+}
+
+.box{
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  color: #666;
+  padding-left: 10%;
+}
+
+/*全体の設定
+---------------------------------------------------------------------------*/
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #666;	/*全体の文字色*/
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
+	font-size: 15px;	/*文字サイズ*/
+	line-height: 2;		/*行間*/
+}
+
+h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form {margin: 0px;padding: 0px;font-size: 100%;}
+ul {list-style-type: none;}
+ol {padding-left: 40px;padding-bottom: 15px;}
+img,svg {border: none;max-width: 100%;height: auto;vertical-align: middle;}
+table {border-collapse:collapse;font-size: 100%;border-spacing: 0;}
+iframe {width: 100%;}
+
+/*リンク（全般）設定
+---------------------------------------------------------------------------*/
+a {
+	color: #666;	/*リンクテキストの色*/
+	transition: 0.5s;	/*マウスオン時の移り変わるまでの時間設定。*/
+}
+a:hover {
+	color: #2799b5;			/*マウスオン時の文字色*/
+	text-decoration: none;	/*マウスオン時に下線を消す設定*/
+}
+
+/*inner共通
+---------------------------------------------------------------------------*/
+.inner {
+	margin: 0 auto;
+	padding: 0 2%;		/*上下、左右へのボックス内の余白*/
+}
+
+/*メインメニュー
+---------------------------------------------------------------------------*/
+/*メニューブロック*/
+#menubar {
+    clear: both;overflow: hidden;
+    background: #ffb0b0;	/*背景色（淡いピンク） */
+}
+/*メニュー１個あたりの設定*/
+#menubar li {
+	float: left;	/*左に回り込み*/
+	width: 16.66%;	/*メニュー幅（100÷6個=16.66%）　４個にする場合　100÷4=25%*/
+}
+#menubar li a {
+	display:  block;text-decoration: none;
+    text-align: center;	/*文字をセンタリング*/
+    font-size: 20px;			/*文字サイズ*/
+	padding: 20px 0;	/*上下、左右へのメニュー内への余白*/
+	color: #fff;	/*文字色*/
+}
+/*１つ目のメニューへの追加設定*/
+#menubar li:first-child a {
+	border-left: 1px solid #000;	/*メニューの線の幅、線種、色*/
+}
+/*装飾文字（英語表記）の設定*/
+#menubar li a span {
+	text-shadow: none;display: block;
+	font-size: 20px;			/*文字サイズ*/
+	font-weight: normal;	/*文字を太字でなく標準に戻す設定*/
+	letter-spacing: 0.2em;	/*文字間隔を少しあける設定*/
+	opacity: 0.5;			/*透明度50％*/
+}
+/*マウスオン時メニューの設定*/
+#menubar li a:hover {
+	background: #FFFFFF;	/*背景色*/
+	color: #16a6b6; /*文字色*/
+}
+
+/*スマホ用メニューを表示させない*/
+#menubar-s {display: none;}
+/*３本バーアイコンを表示させない*/
+#menubar_hdr {display: none;}
+
+/*contents（３カラムを囲むブロック）
+---------------------------------------------------------------------------*/
+#contents {
+	clear: both;overflow: hidden;
+	padding-top: 40px;		/*上に空けるボックス内の余白*/
+    padding-bottom: 40px;	/*下に空けるボックス内の余白*/
+    background: #f9d3cd;	/*背景色（淡いピンク）*/
+}
+
+/*contents-in（mainとsubを囲むブロック）
+---------------------------------------------------------------------------*/
+#contents-in {
+	float: left;	/*左に回り込み*/
+	width: 80%;		/*ブロックの幅*/
+}
+
+/*mainコンテンツ（中央のブロック）
+---------------------------------------------------------------------------*/
+#main {
+	float: right;	/*右に回り込み*/
+	width: 75%;		/*ブロックの幅*/
+}
+/*mainコンテンツのh2タグ設定*/
+#main h2 {
+	text-align: center;	/*文字をセンタリング*/
+	background-image: linear-gradient(45deg, #709dff 0%, #b0c9ff 100%);
+	padding: 0.5em 1em;	/*上下、左右への余白*/
+	border-radius: 6px 6px 0px 0px;	/*角丸のサイズ。左上、右上、右下、左下への設定*/
+    margin-bottom: 10px;
+    font-weight: bold;
+	color: #fff;	/*文字色*/
+}
+
+/*subコンテンツ（左側のブロック）
+---------------------------------------------------------------------------*/
+#sub {
+	float: left;	/*左に回り込み*/
+	width: 22.5%;	/*ブロックの幅*/
+}
+
+/*sideコンテンツ（右側のブロック）
+---------------------------------------------------------------------------*/
+#side {
+	float: right;	/*右に回り込み*/
+	width: 18%;		/*ブロックの幅*/
+}
+
+/*sub,side共通設定
+---------------------------------------------------------------------------*/
+/*h2見出しタグ設定*/
+#sub h2,
+#side h2 {
+	text-align: center;	/*文字をセンタリング*/
+	background-image: linear-gradient(45deg, #709dff 0%, #b0c9ff 100%);
+	padding: 0.5em 1em;	/*上下、左右への余白*/
+	border-radius: 6px 6px 0px 0px;	/*角丸のサイズ。左上、右上、右下、左下への設定*/
+	margin-bottom: 10px;
+    font-weight: bold;
+    color: #fff;	/*文字色*/
+    min-width: 50%;
+}
+
+/*notice設定（お知らせ欄）
+---------------------------------------------------------------------------*/
+/*notice設定*/
+#sub .notice,
+#side .notice {
+	border: 1px solid #ccc;	/*枠線の幅、線種、色*/
+	padding: 10px;			/*ボックス内の余白*/
+    margin-bottom: 20px;	/*ボックスの下にあけるスペース*/
+    background: #fff;
+}
+/*noticeの中にあるh2タグの設定*/
+#sub .notice h2,
+#side .notice h2 {
+	border-radius: 0;	/*角丸をなくす設定*/
+}
+
+/*sub,sideコンテンツ内のおすすめ一覧ブロック
+---------------------------------------------------------------------------*/
+/*各ボックスの設定*/
+#sub .list, #side .list {
+	position: relative;overflow: hidden;
+	font-size: 11px;	/*文字サイズ*/
+	line-height: 1.2;	/*行間を狭くする*/
+	border-top: 1px solid #ccc;	/*上の線の幅、線種、色*/
+    padding: 10px;	/*ボックス内の余白*/
+    background: #fff;
+}
+#sub .list a, #side .list a {
+	text-decoration: none;display: block;overflow: hidden;
+}
+/*最後ボックスの設定*/
+#sub .list:last-of-type, #side .list:last-of-type {
+	border-bottom: 1px solid #ccc;	/*下の線の幅、線種、色*/
+	margin-bottom: 20px;	/*下に空けるスペース*/
+}
+/*ボックス内のh4タグ設定*/
+#sub .list h4, #side .list h4 {
+  font-size: 15px;	/*文字サイズ*/
+	font-weight: bold;	/*太字にする設定*/
+}
+/*ボックス内のp(段落)タグ設定*/
+#sub .list p, #side .list p {
+	padding: 0 !important;
+}
+/*ボックス内の写真設定*/
+#sub .list figure img, #side .list figure img {
+	float: left;	/*画像を左へ回り込み*/
+    display: block;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+/*画面幅800px以下の設定
+------------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width:800px){
+
+/*スマホ用メニューブロック*/
+#menubar-s {
+	display: block;overflow: hidden;
+	position: absolute;
+	top: 100px;	/*上から100pxの場所に配置*/
+	border-top: 1px solid #fff;		/*上の線の幅、線種、色*/
+	width: 100%;
+	z-index: 10;
+	animation-duration: 0.5S;	/*アニメーションの実行時間。0.5秒。*/
+	animation-fill-mode: both;	/*アニメーションの完了後、最後のキーフレームを維持する*/
+}
+/*メニュー１個あたりの設定*/
+#menubar-s li a {
+	display: block;text-decoration: none;
+	padding: 15px 10px 15px 20px;	/*上、右、下、左へのメニュー内の余白*/
+	border-bottom: 1px solid #fff;	/*下の線の幅、線種、色*/
+	background: #ffb0b0;	/*背景色（淡いピンク） */
+  /* background: #dcf2e1;	背景色（淡いグリーン） */
+	font-size: 20px;
+	color: #fff;	/*文字色*/
+  clear: both;overflow: hidden;
+}
+
+#menubar-s li a:hover {
+	background: #FFFFFF;	/*背景色*/
+	color: #16a6b6; /*文字色*/
+}
+
+/*英語表記（飾り文字）*/
+#menubar-s li a span {
+	display: block;
+	font-size: 12px;	/*文字サイズ*/
+}
+/*PC用メニューを非表示にする*/
+#menubar {display: none;}
+
+/*main,sub,side,contents-in
+---------------------------------------------------------------------------*/
+#main, #sub, #side, #contents-in {
+	float: none;
+	width: auto;
+}
